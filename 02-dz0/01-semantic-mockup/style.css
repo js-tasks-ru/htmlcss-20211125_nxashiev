@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  background-color: red;
+}
+
+nav {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+a {
+  margin: 10px;
+}
+
+main {
+  background-color: green;
+  height: 500px;
+  flex: 1 1 auto;
+}
+
+article {
+  background-color: blue;
+  padding: 15px;
+  font-size: 25px;
+  margin: 40px;
+}
+
+ul {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+ol {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+footer h1 {
+  background-color: purple;
+}
