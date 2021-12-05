@@ -53,5 +53,4 @@
 .button_alternate:disabled {
   opacity: 0.3;
   pointer-events: none;
-  border: 1px solid var(--grey-3);
 }
