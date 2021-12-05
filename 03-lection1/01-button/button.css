@@ -47,11 +47,11 @@
 
 .button_secondary:disabled {
   opacity: 0.5;
-  cursor: default;
+  pointer-events: none;
 }
 
 .button_alternate:disabled {
   opacity: 0.3;
-  cursor: default;
+  pointer-events: none;
   border: 1px solid var(--grey-3);
 }
