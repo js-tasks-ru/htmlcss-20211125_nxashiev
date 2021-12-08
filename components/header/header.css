@@ -1,6 +1,10 @@
 .header {
-  background: #fff;
+  background: var(--white);
   padding: 96px 0 77px;
+}
+
+.header_template {
+  background: var(--white);
 }
 
 .header__title {

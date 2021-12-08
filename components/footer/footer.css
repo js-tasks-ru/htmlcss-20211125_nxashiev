@@ -3,6 +3,10 @@
   padding: 71px 0 136px;
 }
 
+.footer_template {
+  background: var(--grey-5);
+}
+
 .footer__title {
   font-family: Inter;
   font-style: normal;
@@ -11,6 +15,14 @@
   line-height: 48px;
   color: var(--black);
   text-align: center;
+}
+
+.footer__title_template {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #acb5bd;
 }
 
 .footer__desc {
