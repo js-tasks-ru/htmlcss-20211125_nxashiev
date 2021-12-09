@@ -9,14 +9,11 @@
 .card_aside {
   width: 229px;
   height: 100%;
-  background: blue;
   box-shadow: none;
   border-radius: 0;
+  background: var(--grey-5);
 }
 
 .card_section {
   height: 100%;
-  background: yellow;
-  box-shadow: none;
-  border-radius: 0;
 }

@@ -3,10 +3,6 @@
   flex-grow: 1;
 }
 
-.preview_template {
-  background: var(--white);
-}
-
 .preview__grid {
   display: flex;
   flex-wrap: wrap;

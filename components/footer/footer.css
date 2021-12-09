@@ -1,5 +1,5 @@
 .footer {
-  background: #fff;
+  background: var(--white);
   padding: 71px 0 136px;
 }
 
@@ -22,7 +22,7 @@
   line-height: 18px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #acb5bd;
+  color: var(--grey-3);
 }
 
 .footer__desc {
