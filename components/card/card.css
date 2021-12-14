@@ -6,7 +6,7 @@
   border-radius: 12px;
 }
 
-.card_aside {
+.side-nav {
   width: 229px;
   height: 100%;
   box-shadow: none;
@@ -14,6 +14,6 @@
   background: var(--grey-5);
 }
 
-.card_section {
+.component-description {
   height: 100%;
 }
