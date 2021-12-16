@@ -6,15 +6,19 @@
   --pink: #f784ad;
   --purple: #7048e8;
   --purple-2: #5028c6;
+  --purple-3: #a0b1f5;
   --blue: #374fc7;
   --blue-2: #2342c0;
+  --blue-3: #4263eb;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
   --grey-5: #f9fafc;
-  --grey-6: #334d6e;
+  --grey-6: #90a0b7;
+  --grey-7: #334d6e;
+
 
   --error: var(--red);
   --success: var(--blue);
