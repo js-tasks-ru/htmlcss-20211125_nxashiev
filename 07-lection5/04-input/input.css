@@ -1,0 +1,37 @@
+.lable__title {
+  margin-bottom: 5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #acb5bd;
+}
+
+.label__input {
+  background: #ffffff;
+  border: 1px solid #dde2e5;
+  border-radius: 8px;
+  padding: 17px 24px 13px 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #495057;
+}
+
+.label__input:focus {
+  border: 1px solid #dde2e5;
+}
+
+.label__input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #dde2e5;
+}
