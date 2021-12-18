@@ -9,3 +9,11 @@
   gap: 30px;
   padding: 68px 0 204px;
 }
+
+.preview__grid_template {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 56px;
+  min-height: 746px;
+  padding: 36px 0;
+}
