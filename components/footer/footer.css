@@ -5,6 +5,7 @@
 
 .footer_template {
   background: var(--grey-5);
+  padding: 92px 0 56px;
 }
 
 .footer__title {

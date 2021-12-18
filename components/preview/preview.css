@@ -14,5 +14,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 56px;
-  height: 746px;
+  min-height: 746px;
+  padding: 36px 0;
 }
