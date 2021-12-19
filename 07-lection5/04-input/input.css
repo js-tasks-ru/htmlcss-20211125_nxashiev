@@ -1,8 +1,8 @@
-.label {
+.custom-input {
   position: relative;
 }
 
-.lable__title {
+.custom-input__title {
   margin-bottom: 5px;
   font-family: Inter;
   font-style: normal;
@@ -14,13 +14,13 @@
   color: var(--grey-3);
 }
 
-.label__icon {
+.custom-input__icon {
   position: absolute;
   bottom: 16px;
   right: 16px;
 }
 
-.label__input {
+.custom-input__input {
   border: 1px solid var(--grey-2);
   border-radius: 8px;
   padding: 17px 50px 13px 24px;
@@ -30,37 +30,30 @@
   font-size: 20px;
   line-height: 26px;
   color: var(--grey-4);
-}
-
-.label__input_success {
-  border: 1px solid var(--grey-2);
-}
-
-.label__input_error {
-  border: 1px solid var(--red);
-  box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
-}
-
-.label__input:focus {
   outline: 0;
+}
+
+.custom-input__input_success {
+  border-color: var(--grey-2);
+}
+
+.custom-input__input_error {
+  border-color: var(--red);
+}
+
+.custom-input__input:focus {
   border: 1px solid var(--blue-3);
   box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-.label__input_success:focus {
-  border: 1px solid var(--grey-2);
+.custom-input__input_success:focus {
+  border-color: var(--grey-2);
 }
 
-.label__input_error:focus {
-  border: 1px solid var(--red);
-  box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
+.custom-input__input_error:focus {
+  border-color: var(--red);
 }
 
-.label__input::placeholder {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 26px;
+.custom-input__input::placeholder {
   color: var(--grey-2);
 }
