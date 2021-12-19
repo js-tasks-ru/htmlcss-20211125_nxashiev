@@ -7,4 +7,5 @@
 .page__box {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 16px;
 }
