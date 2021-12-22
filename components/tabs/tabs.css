@@ -1,0 +1,78 @@
+.tabs > input {
+  /* display: none; */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.tabs__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.tabs__menu > li {
+  list-style: none;
+}
+
+.tabs__menu > li > label {
+  cursor: pointer;
+}
+
+.tabs > input:checked .nav__label {
+  color: black;
+}
+
+.tabs__content_2 {
+  display: none;
+}
+
+.tabs__content_3 {
+  display: none;
+}
+
+.tabs__content_4 {
+  display: none;
+}
+
+.nav__label {
+  color: #acb5bd;
+}
+
+#tab1:checked ~ .tabs__nav #tab1 {
+  color: black;
+}
+
+.tabs__menu > li label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 100%;
+  background-color: var(--dark-bg);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+#tab2:checked ~ .section .tabs__content_1 {
+  display: none;
+}
+
+#tab2:checked ~ .section .tabs__content_2 {
+  display: block;
+}
+
+#tab3:checked ~ .section .tabs__content_1 {
+  display: none;
+}
+
+#tab3:checked ~ .section .tabs__content_3 {
+  display: block;
+}
+
+#tab4:checked ~ .section .tabs__content_1 {
+  display: none;
+}
+
+#tab4:checked ~ .section .tabs__content_4 {
+  display: block;
+}
