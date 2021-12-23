@@ -1,7 +1,11 @@
 .tabs > input {
-  /* display: none; */
   position: absolute;
   clip: rect(0, 0, 0, 0);
+}
+
+.tabs__nav {
+  background-color: white;
+  padding: 5px 0;
 }
 
 .tabs__menu {
@@ -75,4 +79,20 @@
 
 #tab4:checked ~ .section .tabs__content_4 {
   display: block;
+}
+
+#tab1:checked ~ .tabs__nav label[for='tab1'] {
+  color: var(--black);
+}
+
+#tab2:checked ~ .tabs__nav label[for='tab2'] {
+  color: var(--black);
+}
+
+#tab3:checked ~ .tabs__nav label[for='tab3'] {
+  color: var(--black);
+}
+
+#tab4:checked ~ .tabs__nav label[for='tab4'] {
+  color: var(--black);
 }
