@@ -4,13 +4,14 @@
 }
 
 .tabs__nav {
-  background-color: white;
+  background-color: var(--white);
   padding: 5px 0;
 }
 
 .tabs__menu {
   display: flex;
   gap: 30px;
+  padding-left: 0;
 }
 
 .tabs__menu > li {
@@ -22,7 +23,7 @@
 }
 
 .tabs > input:checked .nav__label {
-  color: black;
+  color: var(--black);
 }
 
 .tabs__content_2 {
@@ -43,18 +44,6 @@
 
 #tab1:checked ~ .tabs__nav #tab1 {
   color: black;
-}
-
-.tabs__menu > li label:after {
-  content: '';
-  display: block;
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  top: 100%;
-  background-color: var(--dark-bg);
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
 }
 
 #tab2:checked ~ .section .tabs__content_1 {

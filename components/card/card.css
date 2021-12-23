@@ -26,7 +26,7 @@
   font-size: 21px;
   line-height: 25px;
   text-align: center;
-  color: #212429;
+  color: var(--black);
 }
 
 .card__desc {
@@ -36,5 +36,5 @@
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #212429;
+  color: var(--black);
 }
