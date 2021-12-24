@@ -8,7 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 68px 0 204px;
+  padding: 68px 0 68px;
 }
 
 .preview__grid_template {
