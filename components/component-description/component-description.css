@@ -5,3 +5,7 @@
   text-align: center;
   padding: 40px;
 }
+
+.component-description_grid {
+  display: grid;
+}
