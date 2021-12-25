@@ -2,12 +2,6 @@
   cursor: pointer;
 }
 
-/* .burger__icon_close {
-  display: inline-block;
-  width: 450px;
-  background: var(--white);
-} */
-
 .burger-menu {
   position: fixed;
   top: 0;
@@ -19,8 +13,13 @@
   transition: all 0.3s;
 }
 
+.burger__icon_open {
+  display: none;
+}
+
 .burger-menu[data-open] {
   transform: none;
+  z-index: 1;
 }
 
 .burger-menu[data-open] ~ .burger__icon_open {
@@ -32,4 +31,10 @@
   height: 100%;
   background: var(--white);
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .burger__icon_open {
+    display: inline-block;
+  }
 }
