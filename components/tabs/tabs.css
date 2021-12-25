@@ -1,4 +1,4 @@
-.tabs > input {
+.tabs__input {
   position: absolute;
   clip: rect(0, 0, 0, 0);
 }
@@ -14,16 +14,13 @@
   padding-left: 0;
 }
 
-.tabs__menu > li {
+.tabs__menu-item {
   list-style: none;
 }
 
-.tabs__menu > li > label {
+.tabs__menu-label {
+  color: var(--grey-3);
   cursor: pointer;
-}
-
-.tabs > input:checked .nav__label {
-  color: var(--black);
 }
 
 .tabs__content_2 {
@@ -36,14 +33,6 @@
 
 .tabs__content_4 {
   display: none;
-}
-
-.nav__label {
-  color: #acb5bd;
-}
-
-#tab1:checked ~ .tabs__nav #tab1 {
-  color: black;
 }
 
 #tab2:checked ~ .section .tabs__content_1 {
@@ -70,18 +59,18 @@
   display: block;
 }
 
-#tab1:checked ~ .tabs__nav label[for='tab1'] {
+#tab1:checked ~ .tabs__nav .tabs__menu-label[for='tab1'] {
   color: var(--black);
 }
 
-#tab2:checked ~ .tabs__nav label[for='tab2'] {
+#tab2:checked ~ .tabs__nav .tabs__menu-label[for='tab2'] {
   color: var(--black);
 }
 
-#tab3:checked ~ .tabs__nav label[for='tab3'] {
+#tab3:checked ~ .tabs__nav .tabs__menu-label[for='tab3'] {
   color: var(--black);
 }
 
-#tab4:checked ~ .tabs__nav label[for='tab4'] {
+#tab4:checked ~ .tabs__nav .tabs__menu-label[for='tab4'] {
   color: var(--black);
 }
