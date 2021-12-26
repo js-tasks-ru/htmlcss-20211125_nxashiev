@@ -1,0 +1,76 @@
+.tabs__input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.tabs__nav {
+  background-color: var(--white);
+  padding: 5px 0;
+}
+
+.tabs__menu {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+
+.tabs__menu-item {
+  list-style: none;
+}
+
+.tabs__menu-label {
+  color: var(--grey-3);
+  cursor: pointer;
+}
+
+.tabs__content_2 {
+  display: none;
+}
+
+.tabs__content_3 {
+  display: none;
+}
+
+.tabs__content_4 {
+  display: none;
+}
+
+#tab2:checked ~ .section .tabs__content_1 {
+  display: none;
+}
+
+#tab2:checked ~ .section .tabs__content_2 {
+  display: block;
+}
+
+#tab3:checked ~ .section .tabs__content_1 {
+  display: none;
+}
+
+#tab3:checked ~ .section .tabs__content_3 {
+  display: block;
+}
+
+#tab4:checked ~ .section .tabs__content_1 {
+  display: none;
+}
+
+#tab4:checked ~ .section .tabs__content_4 {
+  display: block;
+}
+
+#tab1:checked ~ .tabs__nav .tabs__menu-label[for='tab1'] {
+  color: var(--black);
+}
+
+#tab2:checked ~ .tabs__nav .tabs__menu-label[for='tab2'] {
+  color: var(--black);
+}
+
+#tab3:checked ~ .tabs__nav .tabs__menu-label[for='tab3'] {
+  color: var(--black);
+}
+
+#tab4:checked ~ .tabs__nav .tabs__menu-label[for='tab4'] {
+  color: var(--black);
+}

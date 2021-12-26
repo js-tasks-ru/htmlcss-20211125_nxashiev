@@ -32,7 +32,7 @@
 
 .calendar__item {
   font-family: Source Sans Pro;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 20px;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@
 
 .calendar__item_day {
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 20px;
   color: var(--grey-6);
 }

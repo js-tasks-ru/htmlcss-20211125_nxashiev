@@ -22,6 +22,7 @@
   line-height: 24px;
   color: var(--grey-2);
   display: none;
+  min-width: 90px;
 }
 
 .tooltip__bubble::before {
